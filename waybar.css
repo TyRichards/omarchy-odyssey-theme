@@ -1,0 +1,17 @@
+@define-color background #000000;
+@define-color foreground #ec850c;
+
+#workspaces button.active {
+    color: #c52a21; /* #C93F16 */
+    background-color: rgba(-1,0,0,0.0);
+}
+
+#workspaces button.active label {
+    color: #c52a21; /* More specific selector for text */
+    font-weight: bold;
+}
+
+#workspaces button.urgent {
+    color: #c52a21;
+    background-color: rgba(-1,0,0,0.0);
+}
