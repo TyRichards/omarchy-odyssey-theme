@@ -1,8 +1,8 @@
 @define-color background-color #000000;
-@define-color border-color #c52a21;
-@define-color label #ec850c;
-@define-color image #ec850c;
-@define-color progress #ec850c;
+@define-color border-color #25829b;
+@define-color label #d7790b;
+@define-color image #d7790b;
+@define-color progress #d7790b;
 
 /* Main OSD container - rounds the entire popup */
 window.background,
@@ -11,7 +11,7 @@ window.background,
 swayosd-window {
     padding: 10px 20px;
     border-width: 3px;
-    border-radius: 16px;          /* Adjust this value: 12px–24px is nice and modern */
+    border-radius: 20px;          /* Adjust this value: 12px–24px is nice and modern */
     /* Optional: softer/more pill-like */
     /* border-radius: 999px; */   /* Fully pill-shaped if width/height allows */
 }

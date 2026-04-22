@@ -1,8 +1,8 @@
-@define-color selected-text #ec850c;
-@define-color text #f6b389;
+@define-color selected-text #d7790b;
+@define-color text #e2a680;
 @define-color base #000000;
-@define-color border #c52a21;
-@define-color foreground #f6b389;
+@define-color border #25829b;
+@define-color foreground #e2a680;
 @define-color background #000000;
 
 window * {
@@ -24,7 +24,7 @@ window .symbols {
 window .box-wrapper {
     background: @background;
     border: 3px solid @border;
-    border-radius: 16px;
+    border-radius: 20px;
     padding: 40px 40px 60px 40px;
 }
 

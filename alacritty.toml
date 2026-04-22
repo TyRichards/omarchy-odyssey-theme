@@ -1,33 +1,33 @@
 [window]
-opacity = 0.7
+opacity = 0.75
 padding.x = 25
 padding.y = 25
 
 [colors]
 [colors.primary]
-background = "#000000"
-foreground = "#f6b389"
+background = "#130c0b"
+foreground = "#e2a680"
 
 [colors.normal]
-black   = "#000000"
-red     = "#418fd7"
+black   = "#130c0b"
+red     = "#25829b"
 green   = "#c52a21"
 yellow  = "#db5f0c"
-blue    = "#ec850c"
-magenta = "#9c7151"
-cyan    = "#bb825d"
-white   = "#f6b389"
+blue    = "#d7790b"
+magenta = "#936a4c"
+cyan    = "#b07a57"
+white   = "#e2a680"
 
 [colors.bright]
-black   = "#433c3c"
-red     = "#ec850c"
+black   = "#685050"
+red     = "#d7790b"
 green   = "#c52a21"
 yellow  = "#db5f0c"
-blue    = "#ec850c"
-magenta = "#9c7151"
-cyan    = "#bb825d"
-white   = "#f6b389"
+blue    = "#d7790b"
+magenta = "#936a4c"
+cyan    = "#b07a57"
+white   = "#e2a680"
 
 [colors.cursor]
-text   = "#000000"
-cursor = "#f6b389"
+text   = "#130c0b"
+cursor = "#e2a680"

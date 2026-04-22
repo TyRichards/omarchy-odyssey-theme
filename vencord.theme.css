@@ -11,19 +11,19 @@
 
 :root {
     --color00: #000000;
-    --color01: #418fd7;
+    --color01: #25829b;
     --color02: #c52a21;
     --color03: #db5f0c;
-    --color04: #ec850c;
-    --color05: #9c7151;
-    --color06: #bb825d;
-    --color07: #f6b389;
-    --color08: #433c3c;
-    --color09: #ec850c;
+    --color04: #d7790b;
+    --color05: #936a4c;
+    --color06: #b07a57;
+    --color07: #e2a680;
+    --color08: #685050;
+    --color09: #d7790b;
     --color10: #c52a21;
     --color11: #db5f0c;
-    --color12: #ec850c;
-    --color13: #9c7151;
-    --color14: #bb825d;
-    --color15: #f6b389;
+    --color12: #d7790b;
+    --color13: #936a4c;
+    --color14: #b07a57;
+    --color15: #e2a680;
 }

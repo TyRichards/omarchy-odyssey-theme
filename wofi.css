@@ -1,11 +1,11 @@
 @define-color bg #000000;
-@define-color fg #f6b389;
+@define-color fg #e2a680;
 @define-color gray1 #c52a21;
-@define-color gray2 #433c3c;
-@define-color gray3 #ec850c;
+@define-color gray2 #685050;
+@define-color gray3 #d7790b;
 @define-color gray4 #db5f0c;
-@define-color gray5 #9c7151;
-@define-color fg_bright #f6b389;
+@define-color gray5 #936a4c;
+@define-color fg_bright #e2a680;
 
 window {
     background-color: @bg;
