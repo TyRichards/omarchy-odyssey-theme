@@ -1,4 +1,4 @@
-@define-color background-color #000000;
+@define-color background-color #130c0b;
 @define-color border-color #25829b;
 @define-color label #d7790b;
 @define-color image #d7790b;
@@ -10,8 +10,20 @@ window.background,
 .osd,
 swayosd-window {
     padding: 10px 20px;
-    border-width: 3px;
-    border-radius: 20px;          /* Adjust this value: 12px–24px is nice and modern */
+    border-width: 2px;
+    border-radius: 14px;          /* Adjust this value: 12px–24px is nice and modern */
     /* Optional: softer/more pill-like */
     /* border-radius: 999px; */   /* Fully pill-shaped if width/height allows */
+}
+
+progressbar,
+trough {
+    min-height: 8px;
+    background-color: #2c2524;
+}
+
+progress {
+    min-height: 8px;
+    border-radius: 0;
+    background-color: #685050;
 }

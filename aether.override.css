@@ -6,10 +6,10 @@
  */
 
 /* Dynamic Color Palette */
-@define-color background #000000;
+@define-color background #130c0b;
 @define-color foreground #e2a680;
 
-@define-color black #000000;
+@define-color black #130c0b;
 @define-color red #25829b;
 @define-color green #c52a21;
 @define-color yellow #db5f0c;
