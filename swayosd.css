@@ -1,5 +1,5 @@
 @define-color background-color #130c0b;
-@define-color border-color #25829b;
+@define-color border-color #685050;
 @define-color label #d7790b;
 @define-color image #d7790b;
 @define-color progress #d7790b;
@@ -19,7 +19,7 @@ swayosd-window {
 progressbar,
 trough {
     min-height: 8px;
-    background-color: #2c2524;
+    background-color: #211a19;
 }
 
 progress {
