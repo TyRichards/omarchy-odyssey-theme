@@ -1,31 +1,31 @@
 # UI Colors (extended)
-accent = "#c52a21"
-cursor = "#e2a680"
+accent = "#c52a21"  # red
+cursor = "#e2a680"  # pale peach
 
 # Primary colors
-foreground = "#e2a680"
-background = "#130c0b"
+foreground = "#e2a680"  # pale peach
+background = "#130c0b"  # warm black
 
 # Selection colors
-selection_foreground = "#130c0b"
-selection_background = "#e2a680"
+selection_foreground = "#130c0b"  # warm black
+selection_background = "#e2a680"  # pale peach
 
 # Normal colors (ANSI 0-7)
-color0 = "#130c0b"
-color1 = "#25829b"
-color2 = "#c52a21"
-color3 = "#db5f0c"
-color4 = "#d7790b"
-color5 = "#936a4c"
-color6 = "#b07a57"
-color7 = "#e2a680"
+color0 = "#130c0b"  # warm black
+color1 = "#25829b"  # teal
+color2 = "#c52a21"  # red
+color3 = "#db5f0c"  # red-orange
+color4 = "#d7790b"  # yellow-orange / amber
+color5 = "#936a4c"  # warm brown
+color6 = "#b07a57"  # tan
+color7 = "#e2a680"  # pale peach
 
 # Bright colors (ANSI 8-15)
-color8 = "#685050"
-color9 = "#d7790b"
-color10 = "#c52a21"
-color11 = "#db5f0c"
-color12 = "#d7790b"
-color13 = "#936a4c"
-color14 = "#b07a57"
-color15 = "#e2a680"
+color8 = "#685050"  # muted mauve / dim brown
+color9 = "#d7790b"  # yellow-orange / amber
+color10 = "#c52a21"  # red
+color11 = "#db5f0c"  # red-orange
+color12 = "#d7790b"  # yellow-orange / amber
+color13 = "#936a4c"  # warm brown
+color14 = "#b07a57"  # tan
+color15 = "#e2a680"  # pale peach

@@ -1,9 +1,13 @@
 @define-color selected-text #d7790b;
 @define-color text #e2a680;
 @define-color base #130c0b;
-@define-color border #25829b;
+@define-color border #4b3a3a;
 @define-color foreground #e2a680;
 @define-color background #130c0b;
+
+window {
+    background: rgba(14, 9, 8, 0.7);
+}
 
 window * {
     font-size: 20px;
