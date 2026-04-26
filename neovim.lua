@@ -5,6 +5,11 @@ return {
 		name = "aether",
 		priority = 1000,
 		opts = {
+			transparent = true,
+			styles = {
+				sidebars = "transparent",
+				floats = "transparent",
+			},
 			colors = {
 				bg = "#130c0b",
 				dark_bg = "#130c0b",
