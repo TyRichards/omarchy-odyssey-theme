@@ -1,0 +1,158 @@
+# Odyssey for Omarchy Quattro's Quickshell shell.
+#
+# OMARCHY 3 STYLE PORT MAP
+# ------------------------
+# [bar], [controls], and [tooltip] preserve waybar.css.
+# [notifications] preserves mako.ini.
+# [launcher] and [menu] preserve walker.css and wofi.css.
+# [popups] preserves swayosd.css.
+# [lock] preserves hyprlock.conf.
+
+# Ported from waybar.css: warm-black bar, amber text, and saturated-red active
+# workspace/urgent states.
+[bar]
+background = "#130c0b"
+background-alpha = 1.0
+text = "#d7790b"
+active = "#c52a21"
+scale-with-font = true
+size-horizontal = 26
+size-vertical = 28
+
+[hyprland]
+active-border = "#d7790b"
+active-border-foreground = "#e2a680"
+
+# Ported from Waybar's red active state and Walker's #211a19 search surface.
+[controls]
+normal-color = "#211a19"
+normal-fill-alpha = 1.0
+normal-border = "#4b3a3a"
+normal-border-width = 1
+normal-border-alpha = 1.0
+hover-cursor-color = "#e2a680"
+hover-cursor-fill-alpha = 0.08
+hover-cursor-border = "#936a4c"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 1.0
+focus-color = "#c52a21"
+focus-fill-alpha = 0.12
+focus-border = "#c52a21"
+focus-border-width = 2
+focus-border-alpha = 1.0
+selected-color = "#c52a21"
+selected-fill-alpha = 0.20
+selected-border = "#d7790b"
+selected-border-width = 1
+selected-border-alpha = 1.0
+pressed-fill-alpha = 0.24
+selection-fill-alpha = 0.35
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+
+# Mako used JetBrains Mono at 11px; Quattro owns the family globally.
+[font]
+base-size = 11
+
+# Ported from swayosd.css: warm-black card, amber content, a muted 2px frame,
+# and the theme accent for Quattro OSD progress.
+[popups]
+background = "#130c0b"
+background-alpha = 1.0
+text = "#d7790b"
+border = "#4b3a3a"
+border-alpha = 1.0
+border-width = 2
+
+# Ported from Waybar's warm bar palette.
+[tooltip]
+background = "#130c0b"
+background-alpha = 0.97
+text = "#e2a680"
+border = "#4b3a3a"
+border-alpha = 1.0
+border-width = 2
+
+# Ported from mako.ini: warm black, pale-peach text, saturated-red 2px border,
+# and compact notification spacing represented by Quattro's base scale.
+[notifications]
+background = "#130c0b"
+background-alpha = 1.0
+text = "#e2a680"
+border = "#c52a21"
+border-alpha = 1.0
+border-width = 2
+countdown = "#c52a21"
+
+# Ported from walker.css and wofi.css: translucent warm-black scrim, dark card,
+# muted brown frame, #211a19 input surface, peach copy, and amber selection.
+[launcher]
+background = "#130c0b"
+background-alpha = 1.0
+text = "#e2a680"
+border = "#4b3a3a"
+border-alpha = 1.0
+border-width = 2
+scrim = "#0e0908"
+scrim-alpha = 0.70
+selected-background = "#d7790b"
+selected-background-alpha = 0.18
+selected-text = "#d7790b"
+selected-border = "#936a4c"
+selected-border-alpha = 1.0
+selected-border-width = 1
+
+# Ported from Walker/Wofi menu rows; clipboard and emoji inherit this palette.
+[menu]
+background = "#130c0b"
+background-alpha = 1.0
+text = "#e2a680"
+border = "#4b3a3a"
+border-alpha = 1.0
+border-width = 2
+scrim = "#0e0908"
+scrim-alpha = 0.70
+selected-background = "#d7790b"
+selected-background-alpha = 0.18
+selected-text = "#d7790b"
+selected-border = "#936a4c"
+selected-border-alpha = 1.0
+selected-border-width = 1
+
+[polkit]
+background = "#130c0b"
+background-alpha = 1.0
+text = "#e2a680"
+text-error = "#c52a21"
+border = "#d7790b"
+border-error = "#c52a21"
+border-alpha = 1.0
+scrim = "#0e0908"
+scrim-alpha = 0.70
+accent = "#c52a21"
+
+# Ported from hyprlock.conf: two-thirds opaque black input, vivid orange text
+# and border, plus the original cool-blue authentication check/error contrast.
+[lock]
+background = "#000000"
+background-alpha = 0.66
+text = "#ec850c"
+placeholder = "#ec850c"
+text-error = "#418fd7"
+border = "#ec850c"
+border-active = "#ec850c"
+border-error = "#418fd7"
+border-alpha = 1.0
+selection = "#418fd7"
+selection-alpha = 0.45
+
+[image-picker]
+scrim = "#0e0908"
+scrim-alpha = 0.70
+text = "#e2a680"
+selected-border = "#c52a21"
+selected-border-alpha = 1.0
+unselected-border = "#d7790b"
+unselected-border-alpha = 0.35
